@@ -1,0 +1,27 @@
+
+.profile_img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.info_heading{
+    color: #008BDE;
+    font-weight: 900;
+    width: 30%;
+}
+.info{
+    color: #fff;
+}
+.overlay{
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+}
+.profile_section{
+    z-index: 1;
+    position: relative;
+}
